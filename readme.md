@@ -13,7 +13,6 @@ Shopify -> orders
 - Move file in this folder (recommended)
 
 ### Run
-Ensure you have "DHLeC.xlsx" (Template), found in Sample Template.
 
 #### Required fields
 - account (Pick-up Account Number)
@@ -26,11 +25,11 @@ Shopify order export does not have certain info, like Weight and HS Code so thes
 
 #### Example
 ```sh
-./shopify-to-dhlecomm convert --account 123456 --salesChannel Website --serviceCode PLT --originCountry SG --unitWeight 20 --description "Mechanical Keyboard Components"  --incoterm DDP "your order exports.csv" "dhl_template.xlsx"
+./shopify-to-dhlecomm convert --account 123456 --salesChannel Website --serviceCode PLT --originCountry SG --unitWeight 20 --description "Clothes"  --incoterm DDP "your order exports.csv" ".\Sample Template\DHLeC AP Portal upload file_1.0_en.xlsx"
 ```
 
 ```sh
-./shopify-to-dhlecomm convert --account 123456 --salesChannel Website --serviceCode PLT --originCountry SG --unitWeight 20 --description "Mechanical Keyboard Components"  --incoterm DDP ".\orders_export.csv" DHLeC.xlsx
+./shopify-to-dhlecomm convert --account 123456 --salesChannel Website --serviceCode PLT --originCountry SG --unitWeight 20 --description "Clothes"  --incoterm DDP ".\orders_export.csv" ".\Sample Template\DHLeC AP Portal upload file_1.0_en.xlsx"
 ```
 
 Exports to "output-[time].xlsx"
