@@ -1,0 +1,19 @@
+Pick-up Account Number	Sales Channel	Shipment Order ID	Tracking Number	Shipping Service Code	Company	Consignee Name	Address Line 1	Address Line 2	Address Line 3	City	State	Postal Code	Destination Country Code	Phone Number	Email Address	Shipment Weight (g)	Length (cm)	Width (cm)	Height (cm)	Currency Code	Total Declared Value	Incoterm	Freight	Is Insured	Insurance	Is COD	Cash on Delivery Value	Recipient ID	Recipient ID Type	Duties	Taxes	Workshare Indicator	Shipment Description	Shipment Import Description	Shipment Export Description	Shipment Content Indicator	Content Description	Content Import Description	Content Export Description	Content Unit Price	Content Origin Country	Content Quantity	Content Weight (g)	Content Code	HS Code	Content Indicator	Remarks	Shipper Company	Shipper Name	Shipper Address1	Shipper Address2	Shipper Address3	Shipper City	Shipper State	Shipper Postal Code	Shipper CountryCode	Shipper Phone Number	Shipper Email address	Service1	Service2	Service3	Service4	Service5	Grouping Reference1	Grouping Reference2	Customer Reference 1	Customer Reference 2
+12347777	eBay	123456789		PLT	DHL eCommerce SG	John Doe	150 Beach Road	#04-01 Gateway West		Singapore	SG	189720	SG	+65 6331 7518	john.doe@email.com	200				USD	89.99	DDP	18.55		0		0						Electronics				Kindle 7			59.99	US	1		K2015XXX01	123784	1	Handle with care	Amazon																			
+12347777	eBay	123456789		PLT	DHL eCommerce SG	John Doe	150 Beach Road	#04-01 Gateway West		Singapore	SG	189720	SG	+65 6331 7518	john.doe@email.com	200				USD	89.99	DDP	18.55		0		0						Electronics				Earphones			15	US	2		K2015XXX02	123785	1	Handle with care	Amazon																			
+12347777	Lazada	123456790		PPS	DHL eCommerce	SIG MARIO ROSSI	VIALE EUROPA 22			Rome	RM	144	IT	+39 06 12345678	mario@gmail.com	100				EUR	188.3	DDU	20		0		0						Apparel				Shirt			45.1	CN	2		IT2015001XXX																							
+12347777	Lazada	123456790		PPS	DHL eCommerce	SIG MARIO ROSSI	VIALE EUROPA 22			Rome	RM	144	IT	+39 06 12345678	mario@gmail.com	100				EUR	188.3	DDU	20		0		0						Apparel				Tie			10	CN	2		IT2015001XXX																							
+12347777	Lazada	123456790		PPS	DHL eCommerce	SIG MARIO ROSSI	VIALE EUROPA 22			Rome	RM	144	IT	+39 06 12345678	mario@gmail.com	100				EUR	188.3	DDU	20		0		0						Apparel				Shorts			39.05	CN	2		IT2015001XXX																							
+12347777	eBay	123456791		PLT	????????	???	????6?	5??	8??	???	???		CN		xiaoming@qq.com	100				CNY	100	DDP	20		0		0	987654321	1			1	Apparel	??			Leisure Shorts	????		50	US	2		CN2015001XXX			Do not get wet		Taibao																		
+12347777	Taibao	123456792		PPS	DHL eCommerce HK	Li Xiao-ming	????6??5???8??			???	???		CN		xiaoming@qq.com	100				CNY	100	DDU	20		0		0	987654321	1				Apparel	??			Leisure Shorts	????		50	US	2		CN2015001XXX			Do not get wet																				
+																																																																			
+																																																																			
+	Notes:																																																																		
+	1	"When uploaded, this sample file is expected to create 4 shipment items altogether"																																																																	
+	2	"There will be 2 PLT shipment items, and 2 PPS shipment items created"																																																																	
+	3	PLT Shipment Items																																																																	
+	i	Package Ref# HKABC123456789 has 2 commodities																																																																	
+	ii	Package Ref# HKABC123456791 has 1 commodity																																																																	
+	4	PPS Shipment Items																																																																	
+	i	Package Ref# HKABC123456790 has 3 commodities																																																																	
+	ii	Package Ref# HKABC123456792 has 1 commodity																																																																	
