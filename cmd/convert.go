@@ -371,7 +371,6 @@ Select your orders you want to export on Shopify. Export selected as CSV.`,
 			}
 			i += 1
 		}
-		// Save the spreadsheet with the origin path.
 		if err = excel.Save(); err != nil {
 			fmt.Println(err)
 		}
