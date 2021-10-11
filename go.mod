@@ -2,7 +2,10 @@ module github.com/ryoid/shopify-to-dhlecomm
 
 go 1.17
 
-require github.com/spf13/cobra v1.2.1
+require (
+	github.com/spf13/cobra v1.2.1
+	github.com/xuri/excelize/v2 v2.4.1
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
@@ -18,7 +21,6 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/xuri/efp v0.0.0-20210322160811-ab561f5b45e3 // indirect
-	github.com/xuri/excelize/v2 v2.4.1 // indirect
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
 	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985 // indirect
 	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
